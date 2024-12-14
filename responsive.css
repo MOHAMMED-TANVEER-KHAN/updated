@@ -1,0 +1,148 @@
+/*===========================
+    Screen Size 480px: Small screens (mobile phones)
+===========================*/
+/*===========================
+  481px to 767px: Medium screens (large phones, small tablets)
+===========================*/
+/*===========================
+     768px to 991px: Large screens (large tablets, small laptops)
+===========================*/
+/*===========================
+    992px to 1150px: large screens (laptops, desktops)
+===========================*/
+/*===========================
+  1151px to All : Extra large screens (laptops, desktops)
+===========================*/
+
+
+/* =========== Extra Small Devices (Phones, 320px to 480px) ========== */
+/* =========== Small Devices (Portrait Tablets and Large Phones, 481px to 600px) ========== */
+/* =========== Medium Devices (Tablets, 601px to 768px) ========== */
+/* =========== Large Tablets and Small Laptops (769px to 992px) ========== */
+/* =========== Laptops and Desktops (993px to 1200px) ========== */
+/* =========== Large Desktops (1201px to 1600px) ========== */
+/* =========== Extra Large Screens (1601px and above) ========== */
+
+
+/* Mobile Phones */
+@media only screen and (max-width: 480px) {
+      .work-section h2, .testimonial-title, .contact-section h2{
+        font-size: 35px !important;
+      }
+      
+      .video-container:hover {
+        -webkit-transform: none;
+      }
+      .video-on-laptop {
+        top: 22px;
+        left: 41px;
+        width: 81%;
+        height: 81%;
+        object-fit: fill;
+        z-index: 10;
+        border-radius: 0px;
+      }
+      .laptop-img{
+        height: 230px;
+      }
+      .project-details h3{
+        margin-top: 20px;
+      }
+      .testimonial-image {
+        width: 300px !important;
+      }
+
+      .testimonial-text p {
+        order: 1 !important; 
+        margin-top: 1rem;
+        
+      }
+    
+      .slider-btn {
+        order: 2 !important; 
+        width: fit-content;
+        
+      }
+  
+      .testimonial-text h2 {
+        font-size: 2rem;
+      }
+    
+      .testimonial-text span {
+        font-size: 0.8rem; 
+        display: block;
+        text-align: center;
+      }
+   
+      .testimonial-image{
+        margin-top: -20px;
+      }
+      .slider-btn{
+        text-align: center;
+        width: 100%;
+      }
+      .slider-btn:hover {
+        transform: none; 
+      }
+      .testimonial-text{
+        margin-left: 0px !important;
+
+      }
+     
+    }       
+    
+    
+/* Tablets */
+/* @media only screen and (min-width: 481px) and (max-width: 768px) { 
+ 
+ } */
+
+/* Small Laptops */
+/* @media only screen and (min-width: 769px) and (max-width: 992px) {
+  
+} */
+
+/* Laptops */
+/* @media only screen and (min-width: 993px) and (max-width: 1200px) { 
+
+ } */
+
+/* Large Desktops */
+/* @media only screen and (min-width: 1201px) and (max-width: 1600px) {  
+
+} */
+
+/* Extra Large Screens */
+/* @media only screen and (min-width: 1601px) { } */
+
+
+
+
+/* Mobile Phones */
+/* @media only screen and (max-width: 480px) {
+   body{
+    border: 5px solid yellow;
+   }
+  
+  } */
+  
+  
+    /* Tablets */
+    /* @media only screen and (min-width: 768px) {
+        body{
+            border: 10px solid red;
+           }
+    } */
+  
+    /* Small Laptops */
+    /* @media only screen and (min-width: 992px) {
+        body{
+            border: 10px solid blue;
+           }
+    } */
+  
+    /* Laptops */
+    /* @media only screen and (min-width: 1200px) {} */
+  
+    /* Large Desktops */
+    /* @media only screen and (min-width: 1600px) {} */
